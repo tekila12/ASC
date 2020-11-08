@@ -1,0 +1,63 @@
+.navBar{
+    width: 200px;
+    background-color: rgb(71, 70, 70);
+    z-index: 1;
+    max-height: 1000px;
+    position: sticky;
+    margin-top: 60px;
+    border: 2px solid rgb(72, 107, 72);
+    }
+    
+    
+    .ascList{
+    list-style: none;
+    padding-bottom: 10px;
+    }
+    
+    
+    .ascGames{
+    color: rgb(253, 253, 253);
+    margin-right: 30px;
+    position: relative;
+    left: -27%;
+    cursor: pointer;
+    padding: 12.3px;
+    font-family: cursive;
+    }
+    
+    
+    .ascGames:hover{
+    color: rgb(72, 107, 72);
+    }
+    
+    
+    .ascImages{
+    height: 70px;
+    display: inline-block;
+    width: 70px;
+    padding: 6px;
+    }
+    
+    
+    .ascIcons{
+    display:block;
+    position: relative;
+    right:  85px;
+    top: 26px;
+    }
+    
+    
+    .ascGames >a{
+    text-decoration: none!important;
+    font-family: cursive!important;
+    color: black;
+    font-size: 15px;
+    }
+    
+    
+    .ascGames >a:hover{
+    color: white;
+    }
+    
+    
+    

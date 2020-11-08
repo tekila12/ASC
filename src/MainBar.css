@@ -1,0 +1,41 @@
+.asc__logo{
+    max-width: 80px;
+    height: auto;
+    }
+    
+    
+    .mainBar{
+    height: 60px;
+    max-height: 100%;
+    width: auto; 
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    }
+    
+    
+    .ascBar> .MuiSvgIcon-root{
+    color: white;
+    height: auto;
+    max-width: 40px;
+    cursor: pointer;
+    }
+    
+    .ascBar> .MuiSvgIcon-root:hover{
+    color: rgb(72, 107, 72);  
+    }
+    
+    .ascBar> .MuiSvgIcon-root{
+    width: 50px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    background-color: linear-gradient( red, yellow);
+    cursor: pointer;  
+        }
+    
+    
