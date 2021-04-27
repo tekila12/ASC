@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './SyndicateUnity.css'
 
 import { Button } from '@material-ui/core';
@@ -11,7 +11,7 @@ const SyndicateUnity=(useEffect)=> {
        
         <div data-aos='fade-down' id='unity' className='syndicateUnity '>
         <div classsName="syndicateInfo">
-        <img className='syndicateImage'src="./Assassins Creed Icons/Syndicate.png" />
+        <img className='syndicateImage'src="./Assassins Creed Icons/Syndicate.png"  alt='' />
         <h2 className='h2Os'>Assassin's Creed Syndicate</h2>
         <div className='syndicateLore'>
             <h4>In 1868, at the tail end of the Industrial Revolution, with the Assassin Brotherhood all but eradicated in Victorian London, twins Jacoband, 
@@ -28,7 +28,7 @@ const SyndicateUnity=(useEffect)=> {
             </div>
             </div> 
             <div classsName="odysseyOrigin__Info1">
-            <img className='unityImage'src="./Assassins Creed Icons/Unity.jpg" />
+            <img className='unityImage'src="./Assassins Creed Icons/Unity.jpg"  alt=''  />
             <h2 className='h2Ou'>Assassin's creed Unity</h2>
             <div className='unityLore'>
                 <h4>

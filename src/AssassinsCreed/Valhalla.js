@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './Valhalla.css'
 import { Button } from '@material-ui/core';
 function Valhalla() {
@@ -6,7 +6,7 @@ function Valhalla() {
         <div  data-aos="fade-down" id='valhalla' className='Valhalla'>
          <div className='ValhallaMain__Info'>
           <img className='ValhallaImage1'
-            src="./Assassins Creed Icons/Valhalla.jpg" />
+            src="./Assassins Creed Icons/Valhalla.jpg"  alt=''  />
            
               <h1>Assassin's Creed Valhalla </h1>
                <div className='valhalaInfo'>

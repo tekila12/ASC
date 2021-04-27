@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="header">
 
-       <img className='logo'src="./Assassins Creed Icons/ubi1.png" />
+       <img className='logo'src="./Assassins Creed Icons/ubi1.png"  alt='' />
       
             <nav>
             <ul className='headerNavBar'>

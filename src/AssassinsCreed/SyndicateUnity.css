@@ -1,197 +1,221 @@
-.syndicateUnity{
-    display: flex;
-    justify-content: space-around;
-    padding: 60px;
-    margin: 20px;
-    background-color: #F0F3F4;
-    margin-top: 100px;
-    max-width: 100vw;
-    height: auto;
-    }
-    
-    .unityImage{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-    }
-    
-    .syndicateImage{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-    
-    }
-    .syndicateLore{
-    margin-bottom: 100px;
-    max-width: 520px;
-    background-color: #FFFFFF;
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    .unityLore{
-    max-width: 520px;
-    margin-bottom: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px;
-    background-color: #FFFFFF
-    }
-    
-    
-    .h2Os{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(59, 47, 34), rgb(85, 85, 85));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .h2Ou{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(207,181,59), rgb(24, 75, 168));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    
-    .unityButton{
-    background: #FFFFFF!important;   
-    height: 55px;
-    transition: .15s ease-out!important;
-    -webkit-text-fill-color:  rgb(49, 100, 196);
-    border-color:  rgb(27, 89, 204)!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-      }
-      
-      
-      
-    .unityButton:hover{
-    background:-webkit-linear-gradient(rgb(105, 92, 34), rgb(24, 75, 168))!important;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:   0.5s!important;
-    -webkit-text-fill-color: #FFFFFF!important;   
-    }
-    
-    .synButton{
-    background: #FFFFFF!important;   
-    height: 55px;
-    transition: .15s ease-out!important;
-    -webkit-text-fill-color: rgb(59, 47, 34);
-    border-color: rgb(59, 47, 34)!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    }
-      
-      
-    .synButton:hover{
-    background: -webkit-linear-gradient(rgb(78, 62, 44), rgb(65, 63, 63)) !important;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:   0.5s!important;   
-    -webkit-text-fill-color: #FFFFFF!important;
-      }
-    
-      @media all
-    and (max-device-width : 480px)
-    {
-    .syndicateUnity{
-     display: flex;
-     flex-direction: column;
-     padding:10px;
-    
-    }
-    
-    }
-    
-    
-    
-    @media all
-      
-    and (max-device-width : 1024px)
-    {
-    .syndicateUnity{
+.syndicateUnity {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  margin: 20px;
+  background-color: #f0f3f4;
+  margin-top: 100px;
+  max-width: 100vw;
+  height: auto;
+}
+
+.unityImage {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+
+.syndicateImage {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+.syndicateLore {
+  margin-bottom: 100px;
+  max-width: 520px;
+  background-color: #ffffff;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.unityLore {
+  max-width: 520px;
+  margin-bottom: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.h2Os {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(59, 47, 34), rgb(85, 85, 85));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.h2Ou {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(207, 181, 59), rgb(24, 75, 168));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.unityButton {
+  background: #ffffff !important;
+  height: 55px;
+  transition: 0.15s ease-out !important;
+  -webkit-text-fill-color: rgb(49, 100, 196);
+  border-color: rgb(27, 89, 204) !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.unityButton:hover {
+  background: -webkit-linear-gradient(
+    rgb(105, 92, 34),
+    rgb(24, 75, 168)
+  ) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.synButton {
+  background: #ffffff !important;
+  height: 55px;
+  transition: 0.15s ease-out !important;
+  -webkit-text-fill-color: rgb(59, 47, 34);
+  border-color: rgb(59, 47, 34) !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.synButton:hover {
+  background: -webkit-linear-gradient(
+    rgb(78, 62, 44),
+    rgb(65, 63, 63)
+  ) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+@media all and (max-width: 480px) {
+  .syndicateUnity {
     display: flex;
     flex-direction: column;
-    padding:20px;
+    padding: 10px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .syndicateUnity {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     margin-top: 100px;
-    }
-    
-    
-    .unityImage{
+  }
+
+  .unityImage {
     max-width: 100%;
     height: auto;
     width: 900px;
-    }
-    
-    
-    .syndicateImage{
+  }
+
+  .syndicateImage {
     max-width: 100%;
     height: auto;
     width: 900px;
-    }
-    
-    
-    .unityLore{
+  }
+
+  .unityLore {
     max-width: 800px;
     margin-bottom: 100px;
     padding: 20px;
-    background-color: #F0F3F4;
+    background-color: #f0f3f4;
     padding: 15px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    }
-    
-    @media all 
-    and (max-device-width : 1440px)
-    {
-    
-    .syndicateUnity{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .syndicateUnity {
     display: flex;
     margin: 20px;
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-    align-items: center;  
-    }
-    
-    
-    .syndicateImage{
-    max-width: 100%;
-    height: auto;
-    width: 750px; 
-    }
-     
-    
-    .unityImage{
+    align-items: center;
+  }
+
+  .syndicateImage {
     max-width: 100%;
     height: auto;
     width: 750px;
-    }
-    
-    
-    .unityLore{
+  }
+
+  .unityImage {
+    max-width: 100%;
+    height: auto;
+    width: 750px;
+  }
+
+  .unityLore {
     max-width: 720px;
     margin-bottom: 100px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-       }
-      
-    
-       
-    .syndicateLore{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .syndicateLore {
     max-width: 720px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     padding: 15px;
-    background-color: #FFFFFF
-    }
-    
-    }
-    
+    background-color: #ffffff;
+  }
+}
+
+@media all and (min-width: 1921px) {
+  .syndicateLore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .syndicateImage {
+    width: 800px;
+  }
+  .unityImage {
+    width: 800px;
+  }
+
+  .h2Ou {
+    font-size: 28px;
+  }
+
+  .h2Os {
+    font-size: 28px;
+  }
+  .unityLore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .unityButton {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+
+  .synButton {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+}

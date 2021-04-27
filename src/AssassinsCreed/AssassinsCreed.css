@@ -1,154 +1,185 @@
-.assassinsCreed{
-    display: flex;
-    justify-content: space-around;
-    padding: 60px;
-    margin-top: 100px;
-    margin: 20px;
-    }
-    
-    .assassinsCreed2{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-    }
-    
-    
-    .creedImage{
-    max-width: 100%;
-    height: 390px;
-    width: 550px;
-    max-height: 100%;
-      
-    
-    }
-    .As2Lore{
-    max-width: 520px;
-    margin-bottom: 100px;
-    background-color: #F0F3F4;
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    .As1Lore{
-    max-width: 520px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px;
-    background-color: #F0F3F4;
-    }
-    
-    
-    .h2As1{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(10, 74, 192), rgb(121, 122, 122));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    
-    .h2As2{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(218, 4, 4), rgb(113, 114, 113));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    
-    
-    .as2Button{
-    background: #FFFFFF!important;
-    -webkit-text-fill-color: rgb(240, 6, 6);
-    transition: .15s ease-out!important;
-    border-color:  rgb(240, 6, 6)!important;
-    height: 55px;
-    transition: 0.8s!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-        }
-    
-    .as2Button:hover{
-    background: -webkit-linear-gradient(rgb(218, 4, 4), rgb(113, 114, 113))!important;   
-    -webkit-text-fill-color: white;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:   0.5s!important;
-    }
-            
-    
-    .buttonas21{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    }
-    
-    
-    .as1Button{
-    background: #fffefe!important;
-    height: 55px;
-    transition: .15s ease-out!important;
-    border-color: rgb(4, 62, 170)!important;
-    -webkit-text-fill-color: rgb(4, 62, 170)!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    z-index: 2;
-    }
-        
-      
-    
-    .as1Button:hover{
-    background: -webkit-linear-gradient(rgb(10, 74, 192), rgb(121, 122, 122))!important;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:  0.5s!important;
-    -webkit-text-fill-color: #FFFFFF!important;                       
-    }
-    
-    
-    @media all 
-    and (max-device-width : 1440px)
-    {
-    .assassinsCreed{
+.assassinsCreed {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  margin-top: 100px;
+  margin: 20px;
+}
+
+.assassinsCreed2 {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+
+.creedImage {
+  max-width: 100%;
+  height: 390px;
+  width: 550px;
+  max-height: 100%;
+}
+.As2Lore {
+  max-width: 520px;
+  margin-bottom: 100px;
+  background-color: #f0f3f4;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.As1Lore {
+  max-width: 520px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  background-color: #f0f3f4;
+}
+
+.h2As1 {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(10, 74, 192), rgb(121, 122, 122));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.h2As2 {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(218, 4, 4), rgb(113, 114, 113));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.as2Button {
+  background: #ffffff !important;
+  -webkit-text-fill-color: rgb(240, 6, 6);
+  transition: 0.15s ease-out !important;
+  border-color: rgb(240, 6, 6) !important;
+  height: 55px;
+  transition: 0.8s !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.as2Button:hover {
+  background: -webkit-linear-gradient(
+    rgb(218, 4, 4),
+    rgb(113, 114, 113)
+  ) !important;
+  -webkit-text-fill-color: white;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+}
+
+.buttonas21 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.as1Button {
+  background: #fffefe !important;
+  height: 55px;
+  transition: 0.15s ease-out !important;
+  border-color: rgb(4, 62, 170) !important;
+  -webkit-text-fill-color: rgb(4, 62, 170) !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  z-index: 2;
+}
+
+.as1Button:hover {
+  background: -webkit-linear-gradient(
+    rgb(10, 74, 192),
+    rgb(121, 122, 122)
+  ) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+@media all and (min-width: 1921px) {
+  .As1Lore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .creedImage {
+    width: 800px;
+  }
+  .assassinsCreed2 {
+    width: 800px;
+  }
+
+  .h2As1 {
+    font-size: 28px;
+  }
+
+  .h2As2 {
+    font-size: 28px;
+  }
+  .As2Lore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .as1Button {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+
+  .as2Button {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+}
+@media all and (max-width: 1440px) {
+  .assassinsCreed {
     display: flex;
     margin: 20px;
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-    align-items: center; 
-    }
-    
-    
-    .creedImage{
-    max-width: 100%;
-    height: auto;
-    width: 750px; 
-    margin-top: 200px;
-    }
-      
-    
-    .assassinsCreed2{
+    align-items: center;
+  }
+
+  .creedImage {
     max-width: 100%;
     height: auto;
     width: 750px;
-    }
-    
-    .As2Lore{
+    margin-top: 200px;
+  }
+
+  .assassinsCreed2 {
+    max-width: 100%;
+    height: auto;
+    width: 750px;
+  }
+
+  .As2Lore {
     max-width: 720px;
     margin-bottom: 200px;
-    background-color: #F0F3F4;
+    background-color: #f0f3f4;
     padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-      
-    
-    .As1Lore{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .As1Lore {
     max-width: 720px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     padding: 15px;
-    background-color: #F0F3F4; 
-    }
-    
-    }
-    
+    background-color: #f0f3f4;
+  }
+}

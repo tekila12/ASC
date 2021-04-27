@@ -1,9 +1,43 @@
-
 .app {
   text-decoration: none;
-  margin:0;
+  margin: 0;
   object-fit: contain;
   overflow-x: hidden;
   overflow: hidden;
+}
+
+.ascf {
+  display: flex;
+  justify-content: center;
+  color: rgb(55, 58, 55);
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.ascMainImages {
+  max-width: 100%;
+  height: auto;
+  width: 5550px;
+}
+
+@media all and (max-width: 1024px) {
+  .ascf {
+    font-size: 40px;
+    position: relative;
+    top: 10px;
   }
-  
+}
+
+@media all and (max-width: 608px) {
+  .ascf {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .ascf {
+    font-size: 20px;
+  }
+}

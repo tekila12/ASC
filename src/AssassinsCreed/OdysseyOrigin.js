@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import "./OdysseyOrigin.css"
 import { Button } from '@material-ui/core';
 
@@ -7,7 +7,7 @@ const OdysseyOrigin=({useEffect})=> {
     
         <div data-aos='fade-down' id='origins' className='OdysseyOrigins'>
             <div classsName="odysseyOrigin__Info">
-            <img className='odyyseyImage1'src="./Assassins Creed Icons/Odyssey.jpg" />
+            <img className='odyyseyImage1'src="./Assassins Creed Icons/Odyssey.jpg" alt='' />
             <h2 className='h2Ody'>Assassin's Creed Odyssey</h2>
             <div className='odyyseyLore'>
                
@@ -25,7 +25,7 @@ const OdysseyOrigin=({useEffect})=> {
             </div>
 
             <div classsName="odysseyOrigin1__Info1">
-            <img className='originImage'src="./Assassins Creed Icons/Origins.jpg" />
+            <img className='originImage'src="./Assassins Creed Icons/Origins.jpg"  alt=''  />
             <h2 className='h2Origins'>Assassin's creed Origins</h2>
             <div className='originsLore'>
                 <h4>The player takes on the role of a Medjay named Bayek and his wife Aya, as they work to protect the people of the Ptolemaic Kingdom during

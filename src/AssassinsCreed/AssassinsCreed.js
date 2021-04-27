@@ -5,7 +5,7 @@ const AssassinsCreed=({useEffect})=> {
     return (
         <div data-aos='fade-down' id='as2' className="assassinsCreed">
             <div classsName="odysseyOrigin__Info">
-            <img className='assassinsCreed2'src="./Assassins Creed Icons/As2.jpg" />
+            <img className='assassinsCreed2'src="./Assassins Creed Icons/As2.jpg"  alt='' />
             <h2 className='h2As2'>Assassin's Creed 2</h2>
             <div className='As1Lore'>
                 <h4>After the events of Assassin's Creed, test subject Desmond Miles is rescued from confinement by undercover Assassin Lucy Stillman and taken to a remote safe house,
@@ -22,7 +22,7 @@ const AssassinsCreed=({useEffect})=> {
             </div>
 
             <div classsName="odysseyOrigin__Info1">
-            <img className='creedImage'src="./Assassins Creed Icons/As1.jpg" />
+            <img className='creedImage'src="./Assassins Creed Icons/As1.jpg"  alt='' />
             <h2 className='h2As1'>Assassin's creed 1</h2>
             <div className='As2Lore'>
                 <h4>Desmond Miles is captured by Abstergo and forced to use a machine called the Animus to explore Altaïr ibn-La'Ahad's memories during the time of the Third Crusade.

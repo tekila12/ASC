@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './Footer.css'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -17,7 +17,7 @@ function Footer() {
             <div className='footerInfo'>
               <div className='gridInfo'>
                <div className='footerUbi'>
-                <img className='logoDown'src="./Assassins Creed Icons/ubi1.png" />
+                <img className='logoDown'src="./Assassins Creed Icons/ubi1.png"  alt='' />
                   <h5>Privacy </h5>
                   <h5>Terms</h5>
                   <h5>Internet-based ads</h5>
@@ -39,7 +39,7 @@ function Footer() {
 <p className='Ubisoftp'>© 2020 Ubisoft Entertainment. All Rights Reserved. Ubisoft,
 Ubi.com and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.</p>
 <img className="esrb" src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3TWaC
-i5CyuZBRpzsRP1iy/6384003e7b534b4962db554a21c696bb/esrb-privacy-footer.jpg" loading="lazy"/>
+i5CyuZBRpzsRP1iy/6384003e7b534b4962db554a21c696bb/esrb-privacy-footer.jpg"  alt=''  loading="lazy"/>
 </div>
 
             </div>

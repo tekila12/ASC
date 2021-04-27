@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './BrotherRevelation.css';
 import { Button } from '@material-ui/core';
 
@@ -6,7 +6,7 @@ const BrotherRevelations=()=> {
     return (
         <div data-aos='fade-down'id='rev' className="brotherRevelations">
            <div classsName="odysseyOrigin__Info">
-            <img className='revImage'src="./Assassins Creed Icons/Revelation.jpg" />
+            <img className='revImage'src="./Assassins Creed Icons/Revelation.jpg"  alt=''  />
             <h2 className='h2Asr'>Assassin's Creed Revelations</h2>
             <div className='revLore'>
                 <h4>The game continues Desmond's story in the present day, following the events of Brotherhood, where he is trapped in the Animus 2.0,
@@ -25,7 +25,7 @@ const BrotherRevelations=()=> {
             </div>
 
             <div classsName="odysseyOrigin__Info1">
-            <img className='brImage'src="./Assassins Creed Icons/Brotherhood.jpg" />
+            <img className='brImage'src="./Assassins Creed Icons/Brotherhood.jpg"  alt='' />
             <h2 className='h2Asb'>Assassin's creed Brotherhood</h2>
             <div className='brLore'>
                 <h4>Using the Animus 2.0, Desmond Miles attempted to relive one of the later memories of his ancestor, Ezio Auditore, hoping that it would reveal

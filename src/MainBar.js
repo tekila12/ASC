@@ -1,4 +1,4 @@
-import React,{useRef, useEffect, useState} from 'react'
+import React,{useRef, useEffect,} from 'react'
 import './MainBar.css';
 
 import MenuIcon from '@material-ui/icons/Menu';
@@ -7,11 +7,7 @@ function MainBar() {
     const ref=useRef()
     const [isNavBarOpen, setIsNavBarOpen]= React.useState(false) 
  
-
-
-
-    function openNavBar()
-    {setIsNavBarOpen(true) }
+    
     function closeNavBar()
     { setIsNavBarOpen(false)}
     
@@ -31,7 +27,7 @@ function MainBar() {
         <div  className="ascBar">
          {isNavBarOpen?<NavBar/>:null}<MenuIcon onClick={() => setIsNavBarOpen(!isNavBarOpen)} className='Menu' />
           </div>
-         <img className='asc__logo' src="./Assassins Creed Icons/Ass1.png"/>
+         <img className='asc__logo' src="./Assassins Creed Icons/Ass1.png"  alt='' />
         </div>
         
     )

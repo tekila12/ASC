@@ -1,146 +1,178 @@
-.blackFlag3{
-    display: flex;
-    justify-content: space-around;
-    padding: 60px;
-    margin-top: 100px;
-    margin: 20px;     
-    max-width: 100%;
-    
-    }    
-    
-    .As3Lore{
-    max-width: 520px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px;
-    background-color: #F0F3F4;
-    margin-bottom: 100px;
-    }
-    
-    .blackImage{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-        
-    }
-    .As3Image{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-    }
-    
-    .blackFlag__Lore{
-    max-width: 520px;
-    margin-bottom: 100px;
-    background-color: #F0F3F4;
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
-    }
-    
-    .h2As3{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(202, 196, 196), rgb(36, 26, 18));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    }
-    
-    .h2Bf{
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(rgb(36, 36, 36), rgb(105, 11, 11));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    
-    
-    .bfButton{
-    background: #F0F3F4;   
-    height: 55px;
-    border-color: rgb(65, 14, 5)!important;
-    -webkit-text-fill-color: rgb(65, 14, 5);
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    transition: .15s ease-out!important;
-    
-    }
-    
-    .bfButton:hover{
-    background: -webkit-linear-gradient(rgb(36, 36, 36), rgb(105, 11, 11))!important;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:   0.5s!important;
-    -webkit-text-fill-color: #FFFFFF!important;
-    }
-    
-    .as3Button{
-    background: #FFFFFF!important;   
-    height: 55px;
-    -webkit-text-fill-color: rgb(53, 57, 65);
-    border-color: rgb(53, 57, 65)!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    transition: .15s ease-out!important;
-    }
-    
-    .as3Button:hover{
-    background: -webkit-linear-gradient(rgb(95, 93, 93), rgb(36, 26, 18))!important;
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:  0.5s!important;
-    -webkit-text-fill-color: #FFFFFF!important;  
-    }
-    
-    
-    
-    
-    
-    
-    @media all 
-    and (max-device-width : 1440px)
-    {
-    .blackFlag3{
+.blackFlag3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  margin-top: 100px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.As3Lore {
+  max-width: 520px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+  background-color: #f0f3f4;
+  margin-bottom: 100px;
+}
+
+.blackImage {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+.As3Image {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+
+.blackFlag__Lore {
+  max-width: 520px;
+  margin-bottom: 100px;
+  background-color: #f0f3f4;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.h2As3 {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(202, 196, 196), rgb(36, 26, 18));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.h2Bf {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(36, 36, 36), rgb(105, 11, 11));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bfButton {
+  background: #f0f3f4;
+  height: 55px;
+  border-color: rgb(65, 14, 5) !important;
+  -webkit-text-fill-color: rgb(65, 14, 5);
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  transition: 0.15s ease-out !important;
+}
+
+.bfButton:hover {
+  background: -webkit-linear-gradient(
+    rgb(36, 36, 36),
+    rgb(105, 11, 11)
+  ) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.as3Button {
+  background: #ffffff !important;
+  height: 55px;
+  -webkit-text-fill-color: rgb(53, 57, 65);
+  border-color: rgb(53, 57, 65) !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  transition: 0.15s ease-out !important;
+}
+
+.as3Button:hover {
+  background: -webkit-linear-gradient(
+    rgb(95, 93, 93),
+    rgb(36, 26, 18)
+  ) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 0.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+@media all and (min-width: 1921px) {
+  .blackFlag__Lore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .blackImage {
+    width: 800px;
+  }
+  .As3Image {
+    width: 800px;
+  }
+
+  .h2Bf {
+    font-size: 28px;
+  }
+
+  .h2As3 {
+    font-size: 28px;
+  }
+  .As3Lore {
+    font-size: 22px;
+    width: 800px !important;
+  }
+  .as3Button {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+
+  .bfButton {
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .blackFlag3 {
     display: flex;
     margin: 20px;
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-    align-items: center
-    }
-    
-    .As3Image{
-    max-width: 100%;
-    height: auto;
-    width: 750px; 
-    }
-      
-    
-    .blackImage{
+    align-items: center;
+  }
+
+  .As3Image {
     max-width: 100%;
     height: auto;
     width: 750px;
-    }
-    
-    .As3Lore{
+  }
+
+  .blackImage {
+    max-width: 100%;
+    height: auto;
+    width: 750px;
+  }
+
+  .As3Lore {
     max-width: 720px;
-    background-color: #F0F3F4;
+    background-color: #f0f3f4;
     padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    
-    
-    .blackFlag__Lore{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .blackFlag__Lore {
     max-width: 720px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     padding: 15px;
-    background-color: #F0F3F4; 
-    }
-    
-    
-    }
-    
+    background-color: #f0f3f4;
+  }
+}

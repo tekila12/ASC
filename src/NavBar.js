@@ -70,17 +70,17 @@ function NavBar() {
                 </ul>
                 <div className='ascIcons'>
             
-                <img className='ascImages' src='./Assassins Creed Icons/asVA.png' />
-                <img className='ascImages' src='./Assassins Creed Icons/aso.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/asor.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/syn.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/unity.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/asb.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/as3.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/asr.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/asbr.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/as2.png'  />
-                <img className='ascImages' src='./Assassins Creed Icons/as1.png'  />
+                <img className='ascImages' src='./Assassins Creed Icons/asVA.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/aso.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/asor.png'  alt=''   />
+                <img className='ascImages' src='./Assassins Creed Icons/syn.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/unity.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/asb.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/as3.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/asr.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/asbr.png' alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/as2.png'  alt=''  />
+                <img className='ascImages' src='./Assassins Creed Icons/as1.png'  alt=''  />
                 </div> 
              </nav>
  

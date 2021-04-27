@@ -5,7 +5,7 @@ const BlackFlag3=({useEffect})=> {
     return (
         <div data-aos='fade-down' id='flag'className='blackFlag3'>
             <div classsName="blackFlag__Info">
-            <img className='blackImage'src="./Assassins Creed Icons/BlackFlag.jpg" />
+            <img className='blackImage'src="./Assassins Creed Icons/BlackFlag.jpg"  alt='' />
             <h2 className='h2Bf'>Assassin's Creed Black Flag</h2>
             <div className='blackFlag__Lore'>
                 <h4>As is the case in previous games in the Assassin's Creed series, the story is divided into two intertwined halves, with one in the present day,
@@ -24,7 +24,7 @@ const BlackFlag3=({useEffect})=> {
             </div>
 
             <div classsName="Info1">
-            <img className='As3Image'src="./Assassins Creed Icons/As3.jpg" />
+            <img className='As3Image'src="./Assassins Creed Icons/As3.jpg"  alt=''  />
             <h2 className='h2As3'>Assassin's creed 3</h2>
             <div className='As3Lore'>
                 <h4>Following the events of Assassin's Creed: Revelations, the game explores the life of an 18th-century assassin in Colonial America during the American Revolution;

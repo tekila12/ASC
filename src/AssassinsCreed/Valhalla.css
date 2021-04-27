@@ -1,92 +1,99 @@
-.Valhalla{
-    display: flex;
-    max-width: 100vw;
-    background-color: #F0F3F4;
-    text-align: center;
-    
-    }
-    
-    .ValhallaMain__Info{
-    margin-bottom: 100px;
-    padding: 20px
-    }
-    
-    .ValhallaMain__Info>h1{
-    text-transform: uppercase;
-    font-family: monospace;
-    font-size: 30px;
-    justify-content: center;
-    display: flex;
-    color: rgb(72, 107, 72);
-    }
-    
-    .ValhallaImage1{
-    max-width: 100%;
-    height: auto;
-    width: 550px;
-    }
-    
-    .valhalaInfo{
-    margin: 10px;
-    padding: 15px;
-    background-color: rgb(255, 255, 255);
-    }
-    
-    
-    .valhalaInfo>h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 5px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    }
-    
-    
-    .valButton{
-    background: #FFFFFF!important;   
-    height: 55px;
-    width: 265px; 
-    transition: .15s ease-out!important;
-    -webkit-text-fill-color: rgb(72, 107, 72);
-    border-color:  rgb(72, 107, 72)!important;
-    font-weight: 900!important;
-    font-size: 15px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-      }
-    
-    
-      .valButton:hover{
-    background: rgb(72, 107, 72)!important; 
-    transition-property: top, left;
-    border-radius: 20px; 
-    transition-duration:  1s, 0.5s, 0.5s!important;
-    transition-delay: 0s, 0.5s, 1s, 1.5s!important;        
-    -webkit-text-fill-color: #FFFFFF!important;
-        
-      }
-    
-    @media all
-         
-    and (max-device-width : 338px) {
- 
-    .ValhallaImage1{
+.Valhalla {
+  display: flex;
+  max-width: 100vw;
+  background-color: #f0f3f4;
+  text-align: center;
+}
+
+.ValhallaMain__Info {
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.ValhallaMain__Info > h1 {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  color: rgb(72, 107, 72);
+}
+
+.ValhallaImage1 {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+}
+
+.valhalaInfo {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.valhalaInfo > h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.valButton {
+  background: #ffffff !important;
+  height: 55px;
+  width: 265px;
+  transition: 0.15s ease-out !important;
+  -webkit-text-fill-color: rgb(72, 107, 72);
+  border-color: rgb(72, 107, 72) !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.valButton:hover {
+  background: rgb(72, 107, 72) !important;
+  transition-property: top, left;
+  border-radius: 20px;
+  transition-duration: 1s, 0.5s, 0.5s !important;
+  transition-delay: 0s, 0.5s, 1s, 1.5s !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+@media all and (max-width: 338px) {
+  .ValhallaImage1 {
     width: 240px;
     height: auto;
     max-width: 100%;
     margin-right: 25px;
-    
-    
-    }
-    .ValhallaMain__Info>h1{
+  }
+  .ValhallaMain__Info > h1 {
     font-size: 24px;
     margin-right: 15px;
-    }
-    
-    
-    .valhalaInfo{
-      margin-left: -5px!important;
-    }
-    }
-    
+  }
+
+  .valhalaInfo {
+    margin-left: -5px !important;
+  }
+}
+@media all and (min-width: 1921px) {
+  .valhalaInfo {
+    font-size: 24px;
+  }
+  .ValhallaMain__Info > h1 {
+    font-size: 32px;
+  }
+
+  .ValhallaImage1 {
+    width: 800px;
+  }
+
+  .valButton {
+    width: 400px;
+    font-size: 21px !important;
+  }
+}

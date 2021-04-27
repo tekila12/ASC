@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import Header from './Header'
 import './App.css';
 import MainBar from './MainBar';
-import MainImages from './MainImages';
 import Valhalla from './AssassinsCreed/Valhalla';
 import OdysseyOrigin from './AssassinsCreed/OdysseyOrigin';
 import SyndicateUnity from './AssassinsCreed/SyndicateUnity';
@@ -20,13 +19,12 @@ function App() {
     
   }, []);
   
- 
-  return (
-    
+  return (  
     <div  className="app">
       <Header />
       <MainBar />
-      <MainImages />
+      <img className='ascMainImages'src='./Images/Asimage1.png'  alt=''  />    
+      <h1 className='ascf'>Assassin's Creed Franchise</h1>
       <Valhalla />
       <OdysseyOrigin />
       <SyndicateUnity />
